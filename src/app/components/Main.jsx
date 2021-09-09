@@ -7,6 +7,7 @@ import { Router, Route } from "react-router-dom";
 import { history } from "../store/history";
 import { ConnectedNavigation } from "./Navigation";
 import { ConnectedTaskDetail } from "./TaskDetail";
+import { ConnectedSignup } from "./Signup";
 import { Redirect } from "react-router";
 
 const RouteGuard =
@@ -26,6 +27,7 @@ export const Main = () => (
       <div>
         <ConnectedNavigation />
         <Route exact path='/' component={ConnectedLogin} />
+        {/* <Route exact path='/signup' component={ConnectedSignup} /> */}
         <Route
           exact
           path='/dashboard'
