@@ -1,14 +1,14 @@
-import React from "react";
-import { Provider } from "react-redux";
-import { store } from "../store";
-import { ConnectedDashboard } from "./DashBoard";
-import { ConnectedLogin } from "./Login";
-import { Router, Route } from "react-router-dom";
-import { history } from "../store/history";
-import { ConnectedNavigation } from "./Navigation";
-import { ConnectedTaskDetail } from "./TaskDetail";
-import { ConnectedSignup } from "./Signup";
-import { Redirect } from "react-router";
+import React from 'react';
+import { Provider } from 'react-redux';
+import { store } from '../store';
+import { ConnectedDashboard } from './DashBoard';
+import { ConnectedLogin } from './Login';
+import { Router, Route } from 'react-router-dom';
+import { history } from '../store/history';
+import { ConnectedNavigation } from './Navigation';
+import { ConnectedTaskDetail } from './TaskDetail';
+import { ConnectedSignup } from './Signup';
+import { Redirect } from 'react-router';
 
 // const RouteGuard =
 //   (Component) =>
